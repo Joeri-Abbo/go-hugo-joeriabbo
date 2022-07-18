@@ -98,7 +98,7 @@ params:
     title: "Joeri."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/me.jpeg
+    image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/me.jpeg
     button:
       enable: true
       name: "Resume"
@@ -117,7 +117,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/me.jpeg
+    image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/me.jpeg
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 

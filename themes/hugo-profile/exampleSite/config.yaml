@@ -48,7 +48,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "https://joeri-abbo.github.io/go-hugo-joeriabbo/fav.png"
 
   theme:
     disableThemeToggle: false
@@ -98,7 +98,7 @@ params:
     title: "Isabella."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/hero.svg
     button:
       enable: true
       name: "Resume"
