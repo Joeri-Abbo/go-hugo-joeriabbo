@@ -5,7 +5,7 @@ theme: hugo-profile
 
 Paginate: 3
 disqusShortname: gurusabarish
-googleAnalytics: G-DWJJVE27WD
+#googleAnalytics: G-_____
 
 markup:
   goldmark:
