@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="" />
+    <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/about.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +45,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
