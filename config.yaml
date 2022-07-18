@@ -47,12 +47,12 @@ Menus:
 params:
   title: "Joeri Abbo"
   description: A full stack developer with a passion for building beautiful websites, applications and dev ops.
-  staticPath: "/"  # The path to serve the static files from
+#  staticPath: "/"  # The path to serve the static files from
   #  favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
-      defaultTheme: "dark" # light
+    defaultTheme: "dark" # light
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -132,6 +132,10 @@ params:
         - "Python"
         - "GO lang"
         - "Java"
+        - "HTML"
+        - "Markdown"
+        - "CSS / SCSS"
+        - "SQL"
     frameworks:
       enable: true
       title: "De frameworks die ik gebruik:"
@@ -141,6 +145,11 @@ params:
         - "Vue"
         - "Bootstrap"
         - "Tailwind"
+        - "Django"
+        - "Flask"
+        - "JQuery"
+        - "Wordpress"
+        - "Zend"
 
   # Experience
   experience:
