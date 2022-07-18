@@ -98,17 +98,20 @@ params:
     title: "Joeri."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/me.jpeg
+    image: /images/me-hero.jpeg
     button:
       enable: false
     #      name: "Resume"
     #      url: "#"
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Joeri-Abbo
         - icon: fab fa-facebook
           url: https://www.facebook.com/joeri.abbo.1/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/joeri-abbo-43a457144/
   #      customIcons:
   #        - icon: /fav.png
   #          url: "https://example.com"
@@ -117,7 +120,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/me.jpeg
+    image: /images/me-square.png
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
@@ -155,111 +158,91 @@ params:
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
+      - job: "Back End Developer"
+        company: "Tracefy"
+        companyUrl: "https://tracefy.com"
         date: "Jan 2022 - present"
         featuredLink:
           enable: true
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Example content
+          - Example item 1
+          - Example item 2
+          - Example item 3
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Back-end Developer"
+        company: "Digitaal bureau Elephant"
+        companyUrl: "https://elephantcs.nl/"
+        date: "april 2021 - December 2021"
         info:
           enable: false
         featuredLink:
           enable: true
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Example content
+          - Example item 1
+          - Example item 2
+          - Example item 3
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "UX Developer"
+        company: "Rodesk"
+        companyUrl: "https://www.rodesk.com"
+        date: "februari 2019 - maart 2021"
         featuredLink:
           enable: true
           url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Example content
+          - Example item 1
+          - Example item 2
+          - Example item 3
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      - job: "Developer"
+        company: "WebNL creative studios"
+        companyUrl: "https://webnl.nl"
+        date: "januari 2018 - maart 2021"
+        content: |
+          Example content
+          - Example item 1
+          - Example item 2
+          - Example item 3
   # Education
   education:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "From Developer to Software Architect"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          name: "ICT Traningen"
+          url: "https://icttrainingen.nl/"
+        date: "Juli 2022 - present"
         featuredLink:
           enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          name: "Cursus"
+          url: "https://icttrainingen.nl/ontwikkel-je-van-developer-naar-software-architect"
+      - title: "Python"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "NHA Cursussen en opleidingen"
+          url: "https://www.nha.nl/"
+        date: "2020"
+      - title: "Applicatie- en mediaontwikkelaar"
+        school:
+          name: "Techniek College Rotterdam"
+          url: "https://www.techniekcollegerotterdam.nl/"
+        date: "2015 - 2018"
+#        content: |-
+#
+#        featuredLink:
+#          enable: true
+#          name: "Button"
+#          url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -328,14 +311,12 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: joeriabbo@hotmail.com
     btnName: Mail me
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Joeri-Abbo
+      linkedin: https://www.linkedin.com/in/joeri-abbo-43a457144/
+      facebook: https://www.facebook.com/joeri.abbo.1/
