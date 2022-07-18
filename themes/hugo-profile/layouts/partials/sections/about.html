@@ -31,6 +31,15 @@
                     {{ end }}
                 </ul>
                 {{ end }}
+                <br>
+                {{ if .Site.Params.about.tools.enable }}
+                {{ .Site.Params.about.tools.title }}
+                <ul>
+                    {{ range .Site.Params.about.tools.items }}
+                    <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
             </div>
         </div>
     </div>

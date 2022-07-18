@@ -47,7 +47,7 @@ Menus:
 params:
   title: "Joeri Abbo"
   description: A full stack developer with a passion for building beautiful websites, applications and dev ops.
-#  staticPath: "/"  # The path to serve the static files from
+  #  staticPath: "/"  # The path to serve the static files from
   #  favicon: "/fav.png"
 
   theme:
@@ -138,12 +138,28 @@ params:
         - "HTML"
         - "Markdown"
         - "CSS / SCSS"
-        - "SQL"
+        - "SQL/MySql"
+    tools:
+      enable: true
+      title: "De tools die ik gebruik en interests:"
+      items:
+        - "Docker"
+        - "Gitlab CI"
+        - "Github actions"
+        - "Jenkins"
+        - "Kubernetes"
+        - "Rancher"
+        - "Digital ocean"
+        - "Arduino"
+        - "Raspberry Pi"
+        - "Alfred"
+
     frameworks:
       enable: true
       title: "De frameworks die ik gebruik:"
       items:
         - "Laravel"
+        - "Livewire"
         - "React"
         - "Vue"
         - "Bootstrap"
@@ -153,6 +169,7 @@ params:
         - "JQuery"
         - "Wordpress"
         - "Zend"
+        - "Woocommerce"
 
   # Experience
   experience:
@@ -233,12 +250,12 @@ params:
           name: "Techniek College Rotterdam"
           url: "https://www.techniekcollegerotterdam.nl/"
         date: "2015 - 2018"
-#        content: |-
-#
-#        featuredLink:
-#          enable: true
-#          name: "Button"
-#          url: "https://example.com"
+  #        content: |-
+  #
+  #        featuredLink:
+  #          enable: true
+  #          name: "Button"
+  #          url: "https://example.com"
 
   # Achievements
   achievements:
@@ -262,50 +279,120 @@ params:
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Avilo
+        image: /images/projects/avilo.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+          name: "View the project"
+          link: https://www.avilo.nl/
+        badges:
+          - "Webnl"
+          - "Wordpress"
+      - title: Kleinhandel
+        image: /images/projects/kleinhandel.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+          name: "View the project"
+          link: https://www.kleinhandel.org/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: Wissing
+        image: /images/projects/wissing.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          name: "View the project"
+          link: https://www.wissing.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: For The People
+        image: /images/projects/forthepeople.png
+        featured:
+          name: "View the project"
+          link: https://forthepeople.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: Fivoor
+        image: /images/projects/fivoor.png
+        featured:
+          name: "View the project"
+          link: https://fivoor.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: Brinkyland
+        image: /images/projects/brinkyland.png
+        featured:
+          name: "View the project"
+          link: https://brinkyland.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: Realconomy
+        image: /images/projects/realconomy.png
+        featured:
+          name: "View the project"
+          link: https://www.realconomy.com/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: GHG
+        image: /images/projects/ghg.png
+        featured:
+          name: "View the project"
+          link: https://www.ghg.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: SIFR
+        image: /images/projects/sifr.png
+        featured:
+          name: "View the project"
+          link: https://sifr.nl/
+        badges:
+         - "Rodesk"
+         - "Wordpress"
+      - title: TWTG
+        image: /images/projects/twtg.png
+        featured:
+          name: "View the project"
+          link: https://www.twtg.io/
+        badges:
+         - "Rodesk"
+         - "Wordpress"
+      - title: Simendo
+        image: /images/projects/simendo.png
+        featured:
+          name: "View the project"
+          link: https://www.simendo.eu/
+        badges:
+         - "Rodesk"
+         - "Wordpress"
+      - title: Kinderdijk
+        image: /images/projects/kinderdijk.png
+        featured:
+          name: "View the project"
+          link: https://www.kinderdijk.nl/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+      - title: Faceland Clinics
+        content: |
+          We created a wordpress multilangauge site for this client with a webshop powered by WooCommerce and WordPress
+        image: /images/projects/faceland.png
+        featured:
+          name: "View the project"
+          link: https://www.facelandclinic.com/
+        badges:
+          - "Rodesk"
+          - "Wordpress"
+          - "Woocommerce"
+#        links:
+#          - icon: fa fa-envelope
+#            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+#          - icon: fab fa-github
+#            url: https://github.com/gurusabarish/hugo-profile
+#          - icon: fab fa-twitter
+#            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
   #Contact
   contact:

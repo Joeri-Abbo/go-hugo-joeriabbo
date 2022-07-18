@@ -35,19 +35,20 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/joeriabbo/Sites/go/hugo/joeriabbo/content/images",
+    "last_opened_file_path": "/Users/joeriabbo/Sites/go/hugo/joeriabbo/content/images/projects",
     "nodejs_package_manager_path": "yarn"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/images/projects" />
       <recent name="$PROJECT_DIR$/content/images" />
       <recent name="$PROJECT_DIR$/themes/hugo-profile/layouts" />
       <recent name="$PROJECT_DIR$/themes/hugo-profile/layouts/_default" />
       <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/images/projects" />
       <recent name="$PROJECT_DIR$/content/images" />
     </key>
   </component>
