@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
