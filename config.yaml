@@ -1,4 +1,4 @@
-baseURL: https://joeri-abbo.github.io/go-hugo-joeriabbo/
+baseURL: https://joeriabbo.nl/
 languageCode: nl-nl
 title: Joeri Abbo
 theme: hugo-profile
@@ -26,33 +26,33 @@ Menus:
 #      url: /gallery
 #      weight: 2
 
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+#Dropdown menu
+# - identifier: dropdown
+#   title: Example dropdown menu
+#   name: Dropdown
+#   weight: 3
+# - identifier: dropdown1
+#   title: example dropdown 1
+#   name: example 1
+#   url: /#
+#   parent: dropdown
+#   weight: 1
+# - identifier: dropdown2
+#   title: example dropdown 2
+#   name: example 2
+#   url: /#
+#   parent: dropdown
+#   weight: 2
 
 params:
   title: "Joeri Abbo"
   description: A full stack developer with a passion for building beautiful websites, applications and dev ops.
-  staticPath: "https://joeri-abbo.github.io/go-hugo-joeriabbo"  # The path to serve the static files from
+  staticPath: "/"  # The path to serve the static files from
   #  favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
-     defaultTheme: "dark" # light
+      defaultTheme: "dark" # light
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -98,11 +98,11 @@ params:
     title: "Joeri."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/me.jpeg
+    image: /images/me.jpeg
     button:
       enable: false
-#      name: "Resume"
-#      url: "#"
+    #      name: "Resume"
+    #      url: "#"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -117,7 +117,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/me.jpeg
+    image: /images/me.jpeg
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
