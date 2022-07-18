@@ -52,7 +52,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+     defaultTheme: "dark" # light
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -100,9 +100,9 @@ params:
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: https://joeri-abbo.github.io/go-hugo-joeriabbo/images/me.jpeg
     button:
-      enable: true
-      name: "Resume"
-      url: "#"
+      enable: false
+#      name: "Resume"
+#      url: "#"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
