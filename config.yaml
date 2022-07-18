@@ -1,6 +1,7 @@
 baseURL: https://joeriabbo.nl/
 languageCode: nl-nl
 title: Joeri Abbo
+theme: hugo-profile
 
 Paginate: 3
 disqusShortname: gurusabarish
