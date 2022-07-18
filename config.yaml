@@ -1,4 +1,4 @@
-baseURL: https://joeriabbo.nl
+baseURL: https://joeri-abbo.github.io/go-hugo-joeriabbo/
 languageCode: nl-nl
 title: Joeri Abbo
 theme: hugo-profile
@@ -47,7 +47,7 @@ Menus:
 params:
   title: "Joeri Abbo"
   description: A full stack developer with a passion for building beautiful websites, applications and dev ops.
-  # staticPath: ""  # The path to serve the static files from
+  staticPath: "https://joeri-abbo.github.io/go-hugo-joeriabbo"  # The path to serve the static files from
   #  favicon: "/fav.png"
 
   theme:
