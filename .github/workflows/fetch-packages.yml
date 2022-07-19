@@ -13,16 +13,16 @@ jobs:
     strategy:
       matrix:
         python-version: [ 'pypy3.8' ]
-      name: Python ${{ matrix.python-version }}
-      steps:
-        - name: Git checkout
-        - uses: actions/checkout@v3
-        - name: Set up Python
-          uses: actions/setup-python@v4
-          with:
-            python-version: ${{ matrix.python-version }}
-            architecture: x64
-        - run:|
-          cd /packagist-fetcher/
-          pip install -r requirements.txt
-          python main.py
+    steps:
+      - name: Git checkout
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: x64
+      - name: Install and run file.
+      - run: |
+        cd /packagist-fetcher/
+        pip install -r requirements.txt
+        python main.py
