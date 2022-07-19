@@ -1,5 +1,8 @@
 name: Fetch packages
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
     # Runs "at minute 55 past every hour" (see https://crontab.guru)
