@@ -68,6 +68,13 @@
                     </li>
                     {{ end }}
 
+                    {{ if .Site.Params.packages.enable }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#packages"
+                            aria-label="packages">Packages</a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"

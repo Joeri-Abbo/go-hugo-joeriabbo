@@ -1,0 +1,52 @@
+{{ if .Site.Params.packages.enable }}
+<section id="packages" class="py-5">
+    <div class="container">
+        <h3 class="text-center">
+            {{ .Site.Params.packages.title }}
+        </h3>
+        <div class="row justify-content-center py-5">
+            <div class="col-12 p-0">
+                {{ range sort .Site.Data.packages "downloads" "desc"}}
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>
+                                        {{ range .versions }}
+                                        {{ . }}
+                                        {{ end }}
+                                    </small>
+                                </div>
+                                <h5 class="card-title"> {{ .name }}</h5>
+
+                                <h6>
+                                    Downloads: {{ .downloads }}
+                                </h6>
+
+                                <div class="py-1 education-content">
+                                    {{ .description }}
+                                </div>
+                                <div class="py-1">
+                                    {{ if .url }}
+                                    <a href="{{ .url }}" target="_blank" class="btn">
+                                        Packagist
+                                    </a>
+                                    {{end}}
+
+                                    {{ if .github_url }}
+                                    <a href="{{ .github_url }}" target="_blank" class="btn">
+                                        Github
+                                    </a>
+                                    {{end}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

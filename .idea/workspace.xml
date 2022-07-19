@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/images/projects/auris-multisite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/images/projects/auris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/images/projects/bambook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/images/projects/heighttechnologies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/images/projects/poort6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/projects/bij-da.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/projects/bosmanvanzaal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/projects/dehora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/projects/raft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/images/projects/star-group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/_packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packagist-fetcher/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/packages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/auris-multisite.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/auris-multisite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/auris.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/auris.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/avilo.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/avilo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/bambook.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/bambook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/brinkyland.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/brinkyland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/faceland.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/faceland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/fivoor.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/fivoor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/forthepeople.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/forthepeople.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/ghg.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/ghg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/heighttechnologies.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/heighttechnologies.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/kinderdijk.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/kinderdijk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/kleinhandel.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/kleinhandel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/poort6.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/poort6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/realconomy.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/realconomy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/sifr.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/sifr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/simendo.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/simendo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/twtg.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/twtg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/projects/wissing.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/projects/wissing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-profile/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-profile/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-profile/layouts/partials/sections/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-profile/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-profile/static/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +85,16 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="" />
+      <created>1658248188568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658248188568</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>

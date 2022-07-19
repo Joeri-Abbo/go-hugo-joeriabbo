@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Package name",
+    "url": "https://packagist.org/packages/joeri-abbo/livewire-search",
+    "github_url": "https://packagist.org/packages/joeri-abbo/livewire-search",
+    "description": "Wow een beschrijving.",
+    "downloads": "1",
+    "versions": [
+      "1.0.0",
+      "1.0.1"
+    ]
+  },
+  {
+    "name": "test",
+    "url": "https://packagist.org/packages/joeri-abbo/livewire-search",
+    "github_url": "https://packagist.org/packages/joeri-abbo/livewire-search",
+    "description": "Wow een beschrijving.",
+    "downloads": "1",
+    "versions": [
+      "1.0.0",
+      "1.0.1"
+    ]
+  }
+]

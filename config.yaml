@@ -279,11 +279,41 @@ params:
   projects:
     enable: true
     items:
+      - title: Backoffice Tracefy
+        image: /images/projects/tracefy-backoffice.png
+        badges:
+          - "Tracefy"
+          - "Laravel"
+          - "Livewire"
       - title: Height technologies
         image: /images/projects/heighttechnologies.png
         featured:
           name: "View the project"
           link: https://www.heighttechnologies.com/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Bij Da
+        image: /images/projects/bij-da.png
+        featured:
+          name: "View the project"
+          link: https://bij-da.nl/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Dehora Werken bij
+        image: /images/projects/dehora.png
+        featured:
+          name: "View the project"
+          link: https://werkenbijdehora.be/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Star group
+        image: /images/projects/star-group.png
+        featured:
+          name: "View the project"
+          link: https://star-specialists.com/nl/
         badges:
           - "Elephant"
           - "Wordpress"
@@ -295,6 +325,22 @@ params:
         badges:
           - "Elephant"
           - "Wordpress"
+      - title: Raft
+        image: /images/projects/raft.png
+        featured:
+          name: "View the project"
+          link: https://www.raft.nl/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Raft
+        image: /images/projects/bosmanvanzaal.png
+        featured:
+          name: "View the project"
+          link: https://jobs.bosmanvanzaal.nl/
+        badges:
+          - "Elephant"
+          - "Wordpress"
       - title: Bambook
         image: /images/projects/bambook.png
         featured:
@@ -302,7 +348,7 @@ params:
           link: https://www.bambook.org/
         badges:
           - "Elephant"
-          - "Magento"
+          - "Magento 2"
       - title: Auris (Corperate website)
         image: /images/projects/auris.png
         featured:
@@ -437,6 +483,9 @@ params:
   #          - icon: fab fa-twitter
   #            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
+  packages:
+    enable: true
+    title: Open source packages
   #Contact
   contact:
     enable: true
