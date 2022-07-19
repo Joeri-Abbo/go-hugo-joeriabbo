@@ -122,9 +122,7 @@ params:
     title: "About Me"
     image: /images/me-square.png
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Content here
     code_languages:
       enable: true
       title: "Talen die ik gebruik en schrijf:"
@@ -489,7 +487,7 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Content here
     email: joeriabbo@hotmail.com
     btnName: Mail me
 

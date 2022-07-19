@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6a31b6-02b4-44b7-a43f-0faf57ae23ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/fetch-packages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/fetch-packages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
