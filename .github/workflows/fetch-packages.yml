@@ -1,28 +1,27 @@
----
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Git checkout"
-      - uses: actions/checkout@v3
-      - name: "Set up Python"
-        uses: actions/setup-python@v4
-        with:
-          architecture: x64
-          python-version: "${{ matrix.python-version }}"
-      - name: "Install dependencies"
-      - run: "cd /packagist-fetcher &&  pip install -r requirements.txt"
-      - name: "Fetch packages"
-      - run: "cd /packagist-fetcher && python main.py"
-    strategy:
-      matrix:
-        python-version:
-          - pypy3.8
-name: "Fetch packages"
-true:
+name: Fetch packages
+on:
   push:
     branches:
       - master
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch: ~
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '0 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ 'pypy3.8' ]
+    steps:
+      - name: Git checkout
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: x64
+      - name: Install dependencies
+      - run: cd /packagist-fetcher &&  pip install -r requirements.txt
+      - name: Fetch packages
+      - run: cd /packagist-fetcher && python main.py
