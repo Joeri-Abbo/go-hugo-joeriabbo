@@ -21,6 +21,6 @@ jobs:
         run: cd ${GITHUB_WORKSPACE}/packagist-fetcher  &&  pip install -r requirements.txt
       - name: Fetch packages
         run: cd ${GITHUB_WORKSPACE}/packagist-fetcher  && python main.py
-      - uses: stefanzweifel/git-auto-commit-action@v4.0.0
+      - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: "Update packages list"
