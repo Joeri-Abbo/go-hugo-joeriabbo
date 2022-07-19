@@ -4,8 +4,10 @@ on:
   push:
     branches:
       - master  # Set a branch to deploy
-  pull_request:
-
+  workflow_run:
+    workflows: [ "Fetch packages" ]
+    types:
+      - completed
 jobs:
   deploy:
     runs-on: ubuntu-20.04
