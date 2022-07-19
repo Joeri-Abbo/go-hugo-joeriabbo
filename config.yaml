@@ -279,6 +279,49 @@ params:
   projects:
     enable: true
     items:
+      - title: Height technologies
+        image: /images/projects/heighttechnologies.png
+        featured:
+          name: "View the project"
+          link: https://www.heighttechnologies.com/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Poort6
+        image: /images/projects/poort6.png
+        featured:
+          name: "View the project"
+          link: https://www.poort6.nl/
+        badges:
+          - "Elephant"
+          - "Wordpress"
+      - title: Bambook
+        image: /images/projects/bambook.png
+        featured:
+          name: "View the project"
+          link: https://www.bambook.org/
+        badges:
+          - "Elephant"
+          - "Magento"
+      - title: Auris (Corperate website)
+        image: /images/projects/auris.png
+        featured:
+          name: "View the project"
+          link: https://www.auris.nl/
+        badges:
+          - "Rodesk"
+          - "Webnl"
+          - "Wordpress"
+      - title: Auris (Corperate Multisite)
+        image: /images/projects/auris-multisite.png
+        featured:
+          name: "View the project"
+          link: https://florant.nl/
+        badges:
+          - "Rodesk"
+          - "Webnl"
+          - "Wordpress"
+          - "Multisite"
       - title: Avilo
         image: /images/projects/avilo.png
         featured:
@@ -349,24 +392,24 @@ params:
           name: "View the project"
           link: https://sifr.nl/
         badges:
-         - "Rodesk"
-         - "Wordpress"
+          - "Rodesk"
+          - "Wordpress"
       - title: TWTG
         image: /images/projects/twtg.png
         featured:
           name: "View the project"
           link: https://www.twtg.io/
         badges:
-         - "Rodesk"
-         - "Wordpress"
+          - "Rodesk"
+          - "Wordpress"
       - title: Simendo
         image: /images/projects/simendo.png
         featured:
           name: "View the project"
           link: https://www.simendo.eu/
         badges:
-         - "Rodesk"
-         - "Wordpress"
+          - "Rodesk"
+          - "Wordpress"
       - title: Kinderdijk
         image: /images/projects/kinderdijk.png
         featured:
@@ -386,13 +429,13 @@ params:
           - "Rodesk"
           - "Wordpress"
           - "Woocommerce"
-#        links:
-#          - icon: fa fa-envelope
-#            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-#          - icon: fab fa-github
-#            url: https://github.com/gurusabarish/hugo-profile
-#          - icon: fab fa-twitter
-#            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+  #        links:
+  #          - icon: fa fa-envelope
+  #            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+  #          - icon: fab fa-github
+  #            url: https://github.com/gurusabarish/hugo-profile
+  #          - icon: fab fa-twitter
+  #            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
   #Contact
   contact:
