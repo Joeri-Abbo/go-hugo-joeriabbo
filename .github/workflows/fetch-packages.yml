@@ -22,6 +22,6 @@ jobs:
           python-version: ${{ matrix.python-version }}
           architecture: x64
       - name: Install dependencies
-        run: cd ${GITHUB_WORKSPACE}  &&  pip install -r requirements.txt
+        run: cd ${GITHUB_WORKSPACE}/packagist-fetcher  &&  pip install -r requirements.txt
       - name: Fetch packages
-        run: cd ${GITHUB_WORKSPACE}  && python main.py
+        run: cd ${GITHUB_WORKSPACE}/packagist-fetcher  && python main.py
