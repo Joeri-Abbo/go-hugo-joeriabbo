@@ -21,8 +21,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           architecture: x64
-      - name: Install and run file.
-      - run: |
-        cd /packagist-fetcher/
-        pip install -r requirements.txt
-        python main.py
+      - name: Install dependencies
+      - run: cd /packagist-fetcher &&  pip install -r requirements.txt
+      - name: Fetch packages
+      - run: cd /packagist-fetcher && python main.py
